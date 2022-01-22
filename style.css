@@ -1,0 +1,343 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #303031;
+}
+button{
+  cursor: pointer;
+}
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+.wrapperMain {
+  padding: 40px 0;
+}
+
+/* SCREEN 1 */
+
+.screen1{
+  padding: 0 55px;
+}
+.topNavbar {
+  display: flex;
+  justify-content: space-between;
+}
+.topNavbar > div > div {
+  cursor: pointer;
+}
+.topNavbar > div:first-child {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topNavbar > div:first-child > div:last-child {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+.topNavbar > div:last-child {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topNavbar > div:last-child > div {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.topNavbar > div:last-child > div:last-child {
+  color: #71a894;
+}
+
+.innerWrapper1 {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  background-image: url("mainIllust.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 85vh;
+  align-items: center;
+  background-position-x: right;
+}
+.innerWrapper1 > div:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.innerWrapper1 > div > div:first-child {
+  font-size: 2.8rem;
+  font-family: "Mochiy Pop P One", sans-serif;
+  margin-bottom: 25px;
+}
+.mainBtn {
+  margin-top: 40px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #71a894;
+  padding: 20px 24px 20px 24px;
+  text-decoration: none;
+  border: none;
+}
+.mainBtn:hover {
+  background: #4c9c7f;
+  text-decoration: none;
+  border: none;
+}
+
+/* SCREEN 2 */
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 55px;
+}
+.screen2 > div:first-child {
+  padding: 20vh 20vw 10vh 20vw;
+}
+.screen2 > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.screen2 > div:first-child > div:first-child {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.screen2 > div:first-child > div:last-child {
+  font-size: 18px;
+  text-align: center;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  height: 38vh;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  justify-content: space-evenly;
+}
+.productCard > div:first-child img {
+  height: 80px;
+  width: 80px;
+}
+.productCard > div:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.productCard > div:last-child {
+  text-align: center;
+}
+
+/* SCREEN 3 */
+
+.screen3 {
+  margin-top: 160px;
+  padding: 0 55px;
+}
+.screen3 > div {
+  display: flex;
+  margin-bottom: 150px;
+}
+.screen3 > div:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.screen3 > div:nth-child(2) > div:first-child {
+  padding: 0 0 0 100px;
+}
+.screen3 > div > div:last-child {
+  display: flex;
+  align-items: center;
+}
+.screen3 > div > div:last-child img {
+  height: 55vh;
+}
+.screen3 > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 100px;
+}
+.screen3 > div > div > div:first-child img {
+  height: 80px;
+  width: 80px;
+}
+.screen3 > div > div > div:nth-child(2) {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 2.2rem;
+  text-align: left;
+  margin: 24px 0;
+}
+
+/* SCREEN 4 */
+
+.screen4 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 55px;
+}
+.screen4>div:first-child{
+  padding: 0 20vw;
+text-align: center;
+}
+.screen4 > div:first-child > div:first-child {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.screen4 > div:first-child > div:last-child {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.screen4 > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+.screen4>div:last-child{
+  text-align: center;
+  margin-top: 75px;
+}
+.postCard {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  width: 25vw;
+  justify-content: center;
+}
+.postCard > div:first-child {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.postCard > div:nth-child(2) {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.postCard > div:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+.postCard > div:last-child > div:last-child {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
+}
+.postCardBtn {
+  -webkit-border-radius: 40;
+  -moz-border-radius: 40;
+  border-radius: 40px;
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  font-size: 16px;
+  background: #71a894;
+  padding: 4px 8px 4px 8px;
+  text-decoration: none;
+  border: none;
+}
+.postCardBtn:hover {
+  background: #628a7b;
+  text-decoration: none;
+  border: none;
+}
+.viewMoreBtn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  background: #303031;
+  padding: 16px 20px;
+  text-decoration: none;
+  border: none;
+}
+.viewMoreBtn:hover {
+  background: #1d1d1f;
+  text-decoration: none;
+  border: none;
+}
+
+.divider{
+background-image: url("Divider.svg");
+background-size: cover;
+height: 72px;
+width: 100%;
+margin: 45px 0;
+}
+
+/* SCREEN 5 */
+
+.screen5{
+  display: flex;
+  flex-direction: column;
+  padding: 0 55px;
+}
+.screen5>div:first-child{
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.screen5>div:first-child>div:first-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.screen5>div:first-child>div:last-child img{
+height: 50vh;
+}
+.screen5>div:first-child>div>div:first-child{
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 2.2rem;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.screen5>div:first-child>div>div:nth-child(2){
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+.bottomNavbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.bottomNavbar>div:first-child{
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+}
+.bottomNavbar>div:last-child{
+  display: flex;
+width: 450px;
+justify-content: space-between;
+font-size: 18px;
+}
+.bottomNavbar>div>div{
+  cursor: pointer;
+}
+.bottomNavbar>div>div:last-child{
+  color: #71A894;
+}
